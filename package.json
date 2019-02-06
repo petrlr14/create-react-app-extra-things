@@ -1,0 +1,25 @@
+{
+  "name": "create-react-app-full",
+  "version": "1.0.0",
+  "description": "CLI for complete react app dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrlr14/create-react-app-full.git"
+  },
+  "keywords": [
+    "react",
+    "CLI",
+    "redux",
+    "react-router"
+  ],
+  "author": "Pedro Gómez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petrlr14/create-react-app-full/issues"
+  },
+  "homepage": "https://github.com/petrlr14/create-react-app-full#readme"
+}
