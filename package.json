@@ -19,7 +19,7 @@
     "redux",
     "react-router"
   ],
-  "author": "Pedro Gómez",
+  "author": "Pedro Gómez <https://github.com/petrlr14>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/petrlr14/create-react-app-full/issues"
