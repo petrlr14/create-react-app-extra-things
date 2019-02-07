@@ -2,26 +2,35 @@
 
 An custom CLI for React app based on Facebook's create-react-app
 
-### Prerequisites
+## Prerequisites
 
 You need node, npm and Facebook's create-react-app CLI installed.
 You can verify those as follow:
 
 ![](verification.gif)
 
-### Installing
+If there's something missing, checkout the official sites of:
+* [create-react-app](https://github.com/facebook/create-react-app)
+* [NodeJs and NPM](https://nodejs.org/en/)
+
+## Installing
 
 You can install create-react-app-full easily as follow
 
-![](installation.gif)
+![](install.gif)
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Usage
+
+![](usage.gif)
+
+## Build With
+
+* [ShellJs](https://github.com/shelljs/shelljs) - for shell commands
+* [ColorsJs](https://github.com/marak/colors.js/) - for coloring the terminal
 
 ## Authors
 
-* **[Pedro Gómez](https://github.com/PurpleBooth)**
+* **[Pedro Gómez](https://github.com/petrlr14)**
 
 ## License
 
