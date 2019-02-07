@@ -19,7 +19,6 @@ const createReactApp = () => {
             console.log("\nForgot to tell me your awesome app name?".red);
             console.log("\nProvide an app name in the following format: ");
             console.log("\ncreate-react-app-full ", "app-name\n".cyan);
-            
             resolve(false);
         }
     });
@@ -28,7 +27,6 @@ const createReactApp = () => {
 const installPackages = () => {
     return new Promise(resolve => {
         console.log("\nDoing some magic...".cyan);
-        console.log(process.cwd());
         shell.exec(`cd ${appName} && npm i redux react-redux react-router react-router-dom prop-types axios redux-thunk`, () => {
             resolve(true);
         });
@@ -43,7 +41,7 @@ const updateTemplates = () => {
             promise[i] = new Promise(res => {
                 fs.writeFile(`${appDirectory}/src/${fileName}`, templates[fileName], (error) => {
                     if (error)
-                        return console.log(error)
+                        return console.log(error);
                     res();
                 });
             });
@@ -52,7 +50,7 @@ const updateTemplates = () => {
             resolve();
         })
     });
-}
+};
 
 const run = async () => {
     let success = await createReactApp();
