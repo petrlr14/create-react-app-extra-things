@@ -47,6 +47,7 @@ const updateTemplates = () => {
             });
         });
         Promise.all(promise).then(()=>{
+            console.log("\nMagic done! You can now start with your React app develpment. Have Fun!".green);
             resolve();
         })
     });
@@ -60,7 +61,6 @@ const run = async () => {
     }
     await installPackages();
     await updateTemplates();
-    console.log("\nMagic done! You can now start with your React app develpment. Have Fun!".green);
 };
 
 run();
