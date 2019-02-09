@@ -1,17 +1,17 @@
 {
-  "name": "create-react-app-extra-dep",
-  "version": "1.0.1",
+  "name": "create-react-app-extra-things",
+  "version": "1.0.0",
   "description": "CLI for react app with extras dependencies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create-react-app-extra-dep": "index.js"
+    "create-react-app-extra-things": "index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/petrlr14/create-react-app-extra-dep.git"
+    "url": "git+https://github.com/petrlr14/create-react-app-extra-things.git"
   },
   "keywords": [
     "react",
@@ -23,9 +23,9 @@
   "author": "Pedro Gómez <https://github.com/petrlr14>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/petrlr14/create-react-app-full/issues"
+    "url": "https://github.com/petrlr14/create-react-app-extra-things/issues"
   },
-  "homepage": "https://github.com/petrlr14/create-react-app-full#readme",
+  "homepage": "https://github.com/petrlr14/create-react-app-extra-things#readme",
   "dependencies": {
     "colors": "^1.3.3",
     "shelljs": "^0.8.3"
