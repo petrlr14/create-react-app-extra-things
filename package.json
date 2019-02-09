@@ -1,7 +1,7 @@
 {
-  "name": "create-react-app-full",
+  "name": "create-react-app-extra",
   "version": "1.0.0",
-  "description": "CLI for complete react app dependencies",
+  "description": "CLI for react app with extras dependencies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
