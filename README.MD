@@ -15,7 +15,7 @@ If there's something missing, checkout the official sites of:
 
 ## Installing
 
-You can install create-react-app-full easily as follow
+You can install create-react-app-extra-things easily as follow
 
 ![](install.gif)
 
