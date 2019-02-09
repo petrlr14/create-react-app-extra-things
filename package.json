@@ -1,23 +1,24 @@
 {
   "name": "create-react-app-extra-dep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI for react app with extras dependencies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create-react-app-full": "index.js"
+    "create-react-app-extra-dep": "index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/petrlr14/create-react-app-full.git"
+    "url": "git+https://github.com/petrlr14/create-react-app-extra-dep.git"
   },
   "keywords": [
     "react",
     "CLI",
     "redux",
-    "react-router"
+    "react-router",
+    "axios"
   ],
   "author": "Pedro Gómez <https://github.com/petrlr14>",
   "license": "MIT",
