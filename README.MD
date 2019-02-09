@@ -1,4 +1,4 @@
-# create-react-app-full
+# create-react-app-extra-things
 
 An custom CLI for React app based on Facebook's create-react-app
 
