@@ -27,7 +27,7 @@ const createReactApp = () => {
 const installPackages = () => {
     return new Promise(resolve => {
         console.log("\nDoing some magic...".cyan);
-        shell.exec(`cd ${appName} && npm i redux react-redux react-router react-router-dom prop-types axios redux-thunk`, () => {
+        shell.exec(`cd ${appName} && npm i react-router react-router-dom prop-types axios`, () => {
             resolve(true);
         });
         resolve(true);

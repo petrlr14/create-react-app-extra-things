@@ -1,6 +1,6 @@
-module.exports = `import React, { Component } from 'react'
-import './App.css'
-import { connect } from 'react-redux'
+module.exports = `import React, { Component } from 'react';
+import './App.css';
+
 class App extends Component {
   render() {
     return (
@@ -15,9 +15,4 @@ class App extends Component {
     );
   }
 }
-export default connect(
-  state=>({
-}),
-  {}
-)(App)
-`;
+export default App;`;
